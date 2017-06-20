@@ -1,4 +1,4 @@
-# Sda.Accounts.Api.Client - the C# library for the Accounts Api
+# Iatec.Apis.Accounts.v1.Client - the C# library for the Accounts Api
 
 API for accessing the Accounts subsystem. Currently, only invitation procedures are implemented.
 
@@ -34,9 +34,9 @@ Run the following command to generate the DLL
 
 Then include the DLL (under the `bin` folder) in the C# project, and use the namespaces:
 ```csharp
-using Sda.Accounts.Api.Client.Api;
-using Sda.Accounts.Api.Client.Client;
-using Sda.Accounts.Api.Client.Model;
+using Iatec.Apis.Accounts.v1.Client.Api;
+using Iatec.Apis.Accounts.v1.Client.Client;
+using Iatec.Apis.Accounts.v1.Client.Model;
 ```
 
 <a name="packaging"></a>
@@ -47,7 +47,7 @@ A `.nuspec` is included with the project. You can follow the Nuget quickstart to
 This `.nuspec` uses placeholders from the `.csproj`, so build the `.csproj` directly:
 
 ```
-nuget pack -Build -OutputDirectory out Sda.Accounts.Api.Client.csproj
+nuget pack -Build -OutputDirectory out Iatec.Apis.Accounts.v1.Client.csproj
 ```
 
 Then, publish to a [local feed](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds) or [other host](https://docs.microsoft.com/en-us/nuget/hosting-packages/overview) and consume the new package via Nuget as usual.
@@ -58,9 +58,9 @@ Then, publish to a [local feed](https://docs.microsoft.com/en-us/nuget/hosting-p
 ```csharp
 using System;
 using System.Diagnostics;
-using Sda.Accounts.Api.Client.Api;
-using Sda.Accounts.Api.Client.Client;
-using Sda.Accounts.Api.Client.Model;
+using Iatec.Apis.Accounts.v1.Client.Api;
+using Iatec.Apis.Accounts.v1.Client.Client;
+using Iatec.Apis.Accounts.v1.Client.Model;
 
 namespace Example
 {
