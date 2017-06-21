@@ -2,3 +2,4 @@
 git_push.sh
 mono_nunit_test.sh
 src/*.Test/
+Iatec.Apis.Accounts.v1.Client.sln
